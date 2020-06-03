@@ -12,9 +12,8 @@ defmodule Grbonus do
 
   defp check_status() do
     url = "#{@apis_url}"
-    token = "some_token_from_another_request"
-    headers = ["Authorization": "Bearer #{token}", "Accept": "Application/json; Charset=utf-8"]
     options = [ssl: [{:versions, [:'tlsv1.2']}], recv_timeout: 500]
+    headers = []
 
     HTTPoison.get(url, headers, options)
   end

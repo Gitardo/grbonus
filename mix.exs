@@ -25,6 +25,7 @@ defmodule Grbonus.MixProject do
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
       
       # add HTTPoison (https://hex.pm/packages/httpoison)
-      {:httpoison, "~> 1.6"}    ]
+      {:httpoison, "~> 1.6"}
+    ]
   end
 end
